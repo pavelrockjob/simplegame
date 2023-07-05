@@ -1,11 +1,10 @@
 <?php
 
-namespace game\Test\Races;
+namespace Game\Test\Classes;
 
+use Game\Test\Interfaces\ClassesInterface;
 
-use game\Test\Interfaces\ClassesInterface;
-
-class Rogue extends Race implements ClassesInterface
+class Rogue extends CharacterClass implements ClassesInterface
 {
 
 }

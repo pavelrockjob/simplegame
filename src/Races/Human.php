@@ -1,8 +1,10 @@
 <?php
 
-namespace game\Test\Races;
+namespace Game\Test\Races;
 
-class Human extends Character
+use Game\Test\Interfaces\RacesInterface;
+
+class Human extends Race implements RacesInterface
 {
 
 }

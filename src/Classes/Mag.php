@@ -1,10 +1,10 @@
 <?php
 
-namespace game\Test\Races;
+namespace Game\Test\Classes;
 
-use game\Test\Interfaces\ClassesInterface;
+use Game\Test\Interfaces\ClassesInterface;
 
-class Mag extends Race implements ClassesInterface
+class Mag extends CharacterClass implements ClassesInterface
 {
 
 }

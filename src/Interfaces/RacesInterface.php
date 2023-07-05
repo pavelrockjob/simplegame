@@ -2,7 +2,7 @@
 
 namespace Game\Test\Interfaces;
 
-interface ClassesInterface
+interface RacesInterface
 {
 
 }
