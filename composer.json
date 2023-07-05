@@ -1,0 +1,25 @@
+{
+  "name": "test/test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "test",
+      "email": "test@test.test"
+    }
+  ],
+  "require": {
+    "ext-sqlite3": "*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Http\\Client\\": "src/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.0"
+  }
+}
