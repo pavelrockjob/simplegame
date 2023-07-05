@@ -4,7 +4,7 @@ namespace Game\Test\Classes;
 
 use Game\Test\Interfaces\ClassesInterface;
 
-class CharacterClass
+abstract class CharacterClass implements ClassesInterface
 {
     protected array $classBonus;
 }
