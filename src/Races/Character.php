@@ -4,13 +4,15 @@ namespace game\Test\Races;
 
 use ClassesContract;
 
-class Race
+class Character
 {
-    protected int $attack = 0;
+    protected int $strength = 0;
 
-    protected int $defense = 0;
+    protected int $agility = 0;
 
-    protected ClassesContract $character;
+    protected int $intelligence = 0;
+
+    protected int $stamina = 0;
 
     public function __construct(ClassesContract $character, array $properties = []){
         foreach($properties as $propertyName => $value){
@@ -18,7 +20,7 @@ class Race
                 $this->{$propertyName} = $value;
             }
         }
-
-        $this->character = $character;
     }
+
+
 }

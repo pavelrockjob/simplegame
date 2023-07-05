@@ -2,7 +2,7 @@
 
 namespace game\Test\Races;
 
-class Human extends Race
+class Human extends Character
 {
 
 }

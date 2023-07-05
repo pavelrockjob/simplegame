@@ -2,7 +2,7 @@
 
 namespace game\Test\Races;
 
-class Gnome extends Race
+class Gnome extends Character
 {
 
 }

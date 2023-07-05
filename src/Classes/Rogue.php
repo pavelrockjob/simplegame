@@ -2,9 +2,10 @@
 
 namespace game\Test\Races;
 
-use ClassesContract;
 
-class Rogue extends Character implements ClassesContract
+use game\Test\Interfaces\ClassesInterface;
+
+class Rogue extends Race implements ClassesInterface
 {
 
 }

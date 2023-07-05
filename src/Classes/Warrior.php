@@ -2,9 +2,9 @@
 
 namespace game\Test\Races;
 
-use ClassesContract;
+use ClassesInterface;
 
-class Warrior extends Character implements ClassesContract
+class Warrior extends Race implements ClassesInterface
 {
 
 }

@@ -2,7 +2,7 @@
 
 namespace game\Test\Races;
 
-class Elf extends Race
+class Elf extends Character
 {
 
 }

@@ -2,9 +2,9 @@
 
 namespace game\Test\Races;
 
-use ClassesContract;
+use game\Test\Interfaces\ClassesInterface;
 
-class Mag extends Character implements ClassesContract
+class Mag extends Race implements ClassesInterface
 {
 
 }
